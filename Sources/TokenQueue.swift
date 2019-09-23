@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 open class TokenQueue {
     private var queue: String

@@ -13,6 +13,9 @@ To get an {@code Elements} object, use the {@link Element#select(String)} method
 */
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 //open typealias Elements = Array<Element>
 //typealias E = Element

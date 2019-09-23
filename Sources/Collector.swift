@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 /**
  * Collects a list of elements that match the supplied criteria.

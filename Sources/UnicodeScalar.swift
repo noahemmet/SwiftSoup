@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 private let uppercaseSet = CharacterSet.uppercaseLetters
 private let lowercaseSet = CharacterSet.lowercaseLetters

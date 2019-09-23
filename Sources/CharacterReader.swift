@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 /**
  CharacterReader consumes tokens off a string. To replace the old TokenQueue.

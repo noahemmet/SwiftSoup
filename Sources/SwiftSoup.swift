@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 	/**
 	Parse HTML into a Document. The parser will make a sensible, balanced document tree out of any HTML.

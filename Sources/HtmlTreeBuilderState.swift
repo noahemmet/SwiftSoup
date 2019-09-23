@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 protocol HtmlTreeBuilderStateProtocol {
     func process(_ t: Token, _ tb: HtmlTreeBuilder)throws->Bool

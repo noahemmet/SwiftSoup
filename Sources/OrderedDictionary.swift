@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 public class OrderedDictionary<Key: Hashable, Value: Equatable>: MutableCollection, Hashable {
 

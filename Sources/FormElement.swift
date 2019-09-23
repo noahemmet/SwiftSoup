@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 /**
  * A HTML Form Element provides ready access to the form fields/controls that are associated with it. It also allows a

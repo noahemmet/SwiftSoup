@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 extension Array where Element : Equatable {
     func lastIndexOf(_ e: Element) -> Int {

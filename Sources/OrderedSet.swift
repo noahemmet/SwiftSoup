@@ -6,6 +6,9 @@
 //  Copyright © 2016 Nabil Chatbi. All rights reserved.
 //
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 /// An ordered, unique collection of objects.
 public class OrderedSet<T: Hashable> {

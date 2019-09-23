@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 open class Attribute {
     /// The element type of a dictionary: a tuple containing an individual

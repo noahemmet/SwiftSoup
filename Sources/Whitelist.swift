@@ -56,6 +56,9 @@
  */
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 public class Whitelist {
     private var tagNames: Set<TagName> // tags allowed, lower case. e.g. [p, br, span]

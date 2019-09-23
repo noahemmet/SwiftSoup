@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 public struct Pattern {
     public static let CASE_INSENSITIVE: Int = 0x02

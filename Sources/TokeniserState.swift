@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 protocol TokeniserStateProtocol {
     func read(_ t: Tokeniser, _ r: CharacterReader)throws

@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 /**
  * Use the {@code XmlTreeBuilder} when you want to parse XML without any of the HTML DOM rules being applied to the

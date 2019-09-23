@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 final class Tokeniser {
     static  let replacementChar: UnicodeScalar = "\u{FFFD}" // replaces null character

@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 public class ParseErrorList {
     private static let INITIAL_CAPACITY: Int = 16

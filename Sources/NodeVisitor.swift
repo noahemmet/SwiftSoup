@@ -7,6 +7,9 @@
 //
 
 import Foundation
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
 
 /**
  * Node visitor interface. Provide an implementing class to {@link NodeTraversor} to iterate through nodes.
